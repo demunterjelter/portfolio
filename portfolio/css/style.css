@@ -1,0 +1,57 @@
+body {
+  background-image: url(../img/nice-simple-wallpaper-for-desktop-22.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body img {
+  width: 500px;
+  height: 300px;
+  margin: 1em;
+}
+body img:hover {
+  /*width: 10rem;*/
+  transform: rotate3d(3, 3, 3, 5deg);
+}
+body h1 {
+  color: white;
+}
+body ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 80%;
+  margin-left: 10%;
+}
+body ul li {
+  display: flex;
+  float: left;
+  width: 20%;
+  background: rgba(204, 204, 204, 0.5);
+}
+body ul li li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+body ul li a:hover {
+  background-color: skyblue;
+}
+body .gegevens {
+  color: white;
+  border-color: grey;
+  width: 40%;
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 35px;
+  margin-right: 10px;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.5);
+  float: left;
+}

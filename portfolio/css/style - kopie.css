@@ -1,0 +1,18 @@
+body {
+  background-image: url(../img/nice-simple-wallpaper-for-desktop-22.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+p {
+  color: green;
+}
+h1 {
+  color: green;
+}
+h2 {
+  color: green;
+}
+.form {
+  width: 40%;
+}
